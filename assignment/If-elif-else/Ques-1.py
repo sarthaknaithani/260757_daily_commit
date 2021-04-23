@@ -65,7 +65,7 @@ def get_next_date(dd, mm, yy):
 def validate_input(dd,mm,yy):
     if check_leap_year(yy):
         if dd > 29:
-            print("Invalid day")
+            print("invalid day")
             sys.exit(0)
     else:
         if dd > 28:
